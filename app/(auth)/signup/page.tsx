@@ -151,8 +151,8 @@ export default function Signup() {
 
   return (
     <div className="flex min-h-screen bg-white ">
-      <div className="w-full lg:w-1/2 flex flex-col justify-center p-16 shadow-2xl">
-        <div className=" w-full ">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center items-center p-16 shadow-2xl">
+        <div className=" w-[450px] ">
           <div className="mb-10 w-full flex flex-col items-center">  
             <img src="/images/logo.png" alt="Logo" />
             <p className="mt-2 text-gray-600">

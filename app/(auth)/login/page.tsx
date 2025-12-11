@@ -62,7 +62,7 @@ export default function Login() {
                   Enter your credentials to continue
                 </p>
           </div>
-          
+
           <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
             {loginError && (
               <div className="rounded-lg bg-red-50 border border-red-200 p-4">
@@ -76,7 +76,7 @@ export default function Login() {
             )}
             <div className="space-y-2">
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email Id
+                Email
               </label>
               <div className="relative">
                 <input
